@@ -9,29 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d351c320-5192-4f29-ab6d-91bdf1fc832d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="d351c320-5192-4f29-ab6d-91bdf1fc832d" name="Changes" comment="README">
+      <change afterPath="$PROJECT_DIR$/gh-md-toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/config/JdbcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/config/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/config/ServletConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/config/SpringMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/config/SpringMvcSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/config/SpringMvcSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/controller/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/controller/Code.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/controller/ProjectExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/controller/ProjectExceptionAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/controller/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/controller/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/exception/BizzException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/exception/BizzException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/exception/SystemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/exception/SystemException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/songjian/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/songjian/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tech/songjian/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tech/songjian/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +67,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -94,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/webapp/js" />
@@ -285,8 +268,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669346746240</updated>
-      <workItem from="1669346747407" duration="29063000" />
+      <workItem from="1669346747407" duration="30311000" />
     </task>
+    <task id="LOCAL-00001" summary="README">
+      <created>1669389457526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669389457526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +293,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="README" />
+    <option name="LAST_COMMIT_MESSAGE" value="README" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
