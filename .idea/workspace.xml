@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d351c320-5192-4f29-ab6d-91bdf1fc832d" name="Changes" comment="README">
-      <change afterPath="$PROJECT_DIR$/gh-md-toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,7 +266,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669346746240</updated>
-      <workItem from="1669346747407" duration="30311000" />
+      <workItem from="1669346747407" duration="30574000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1669389457526</created>
@@ -277,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669389457526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="README">
+      <created>1669390604230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669390604230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

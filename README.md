@@ -1,25 +1,25 @@
 # 【SSM+VUE】极简玩具DEMO
 
 - [后端基本开发流程](#后端基本开发流程)
-  - [0 准备项目框架以及配置依赖](#0 准备项目框架以及配置依赖)
-  - [1 准备数据以及数据库](1 准备数据以及数据库)
-  - [2 定义POJO](#2 定义POJO)
-  - [3 编写配置](#3 编写配置)
-  - [4 编写Dao](#4 编写Dao)
-  - [5 编写Service](#5 编写Service)
-  - [6 编写Controller](#6 编写Controller)
-  - [7 编写测试类进行业务层测试](#7 编写测试类进行业务层测试)
-  - [8 封装Result类传输数据](#8 封装Result类传输数据)
-  - [9 添加异常处理](#9 添加异常处理)
-  - [10 自定义业务异常与系统异常](#10 自定义业务异常与系统异常)
+  - [0 准备项目框架以及配置依赖](#准备项目框架以及配置依赖)
+  - [1 准备数据以及数据库](#准备数据以及数据库)
+  - [2 定义POJO](#定义POJO)
+  - [3 编写配置](#编写配置)
+  - [4 编写Dao](#编写Dao)
+  - [5 编写Service](#编写Service)
+  - [6 编写Controller](#编写Controller)
+  - [7 编写测试类进行业务层测试](#编写测试类进行业务层测试)
+  - [8 封装Result类传输数据](#封装Result类传输数据)
+  - [9 添加异常处理](#添加异常处理)
+  - [10 自定义业务异常与系统异常](#自定义业务异常与系统异常)
 - [前端页面与后端整合](#前端页面与后端整合)
-  - [1 添加配置放行静态资源](1 添加配置放行静态资源)
-  - [2 在前端页面中编写Vue代码](#2 在前端页面中编写Vue代码)
+  - [1 添加配置放行静态资源](添加配置放行静态资源)
+  - [2 在前端页面中编写Vue代码](#在前端页面中编写Vue代码)
 - [效果显示](#效果显示)
 
 ## 后端基本开发流程
 
-### 0 准备项目框架以及配置依赖
+### 准备项目框架以及配置依赖
 
 创建好所需要的目录。
 
@@ -93,7 +93,7 @@
   </dependencies>
 ```
 
-### 1 准备数据以及数据库
+### 准备数据以及数据库
 
 在 mysql 中执行 sql 脚本：
 
@@ -123,7 +123,7 @@ VALUES
 
 ![image-20221125145612561](https://tva1.sinaimg.cn/large/008vxvgGgy1h8hdpjg3iwj30b003mq2x.jpg)
 
-### 2 定义POJO
+### 定义POJO
 
 在 `domain` 包下，定义 POJO 类。
 
@@ -162,7 +162,7 @@ public class Book {
 }
 ```
 
-### 3 编写配置
+### 编写配置
 
 配置文件均写在 `config` 中。本 demo 采用的框架是 `Spring` 、`SpringMVC` 和 `Mybatis`，因此共有：
 
@@ -301,7 +301,7 @@ public class MyBatisConfig {
 }
 ```
 
-### 4 编写Dao
+### 编写Dao
 
 这里直接使用注解的方式完成，增删查改的业务。
 
@@ -370,7 +370,7 @@ public interface BookDao {
 }
 ```
 
-### 5 编写Service
+### 编写Service
 
 Service 要写接口和对应的实现类，实现类写在 `/service/impl` 中。
 
@@ -495,7 +495,7 @@ public class BookServiceImpl implements BookService {
 }
 ```
 
-### 6 编写Controller
+### 编写Controller
 
 这里要记得写 `@RestController` 注解（Rest风格开发）以及 `@RequestMapping()` 请求地址映射路径。也是使用自动装配获取 Service 对象。
 
@@ -557,7 +557,7 @@ public class BookController {
 }
 ```
 
-### 7 编写测试类进行业务层测试
+### 编写测试类进行业务层测试
 
 ![image-20221125204424898](https://tva1.sinaimg.cn/large/008vxvgGgy1h8hnrvwnqbj30ag02vq2s.jpg)
 
@@ -629,7 +629,7 @@ public class BookServiceTest {
 
 那到目前为止，基本功能（CRUD）都实现完全了。接下来封装一下表现层与前端的传输协议。
 
-### 8 封装Result类传输数据
+### 封装Result类传输数据
 
 > 将数据封装成统一格式
 
@@ -810,7 +810,7 @@ public class BookController {
 
 ![image-20221125215157352](https://tva1.sinaimg.cn/large/008vxvgGgy1h8hpq4i7ohj311j0jl3zw.jpg)
 
-### 9 添加异常处理
+### 添加异常处理
 
 异常处理类放在表现层统一处理，使用 AOP 的思想。在 controller 包下创建 Handler
 
@@ -863,7 +863,7 @@ public class ProjectExceptionAdvice {
 }
 ```
 
-### 10 自定义业务异常与系统异常
+### 自定义业务异常与系统异常
 
 异常分类，即 `bizzErr` 和 `systemErr` 。新建包 `exception` 创建这两个类：
 
@@ -954,7 +954,7 @@ public class BizzException extends RuntimeException{
 
 ## 前端页面与后端整合
 
-### 1 添加配置放行静态资源
+### 添加配置放行静态资源
 
 ```java
 /**
@@ -987,7 +987,7 @@ public class SpringMvcSupport extends WebMvcConfigurationSupport {
 }
 ```
 
-### 2 在前端页面中编写Vue代码
+### 在前端页面中编写Vue代码
 
 使用 axios 发送异步请求，请求对应后端资源路径。
 
